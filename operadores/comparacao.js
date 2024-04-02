@@ -13,3 +13,11 @@ let cpfUsuario = "111.222.333-44"
 let bloquear = cpfUsuario === cpfBloqueado
 
 console.log ("o usuario está barrado? " + bloquear)
+
+console.log ("--------------------")
+
+let idadeCorte = 60
+let idadeUsuario = 60 
+
+let terceiraIdade = idadeCorte <= idadeUsuario
+console.log (terceiraIdade)
