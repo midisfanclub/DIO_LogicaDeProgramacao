@@ -1,6 +1,6 @@
 // estrutura de decisão
 
-let fruta = "limão"
+let fruta = "morango"
 
 switch (fruta)
 {
@@ -9,7 +9,9 @@ switch (fruta)
         break
 
     case "banana":
-        console.log ("vitamina de banana")
+    case "morango":
+    case "mamão":
+        console.log ("vitamina de " + fruta)
         break
 
     case "maçã":
