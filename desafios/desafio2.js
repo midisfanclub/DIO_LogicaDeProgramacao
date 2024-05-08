@@ -1,4 +1,4 @@
-let saldo = saldoVitorias (95, 20)
+let saldo = saldoVitorias (120, 20)
 let nivelFinal = nivelHeroi ()
 console.log (`O Herói tem de saldo de ${saldo} está no nível ${nivelFinal}`)
 
